@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 .address {
     display: flex;
     justify-content: flex-end;
@@ -12,13 +11,24 @@ address{
     font-size: 20px;
     width:max-content;
     margin-right: 20px;
-    background-color:indianred ;
+    font-family: 'Beau Rivage', cursive;
+    background-color:rgb(136, 168, 206) ;
+    animation: rotation 2s linear;
     border-radius: 16px 16px 16px 16px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 .header {
+    text-align: center;
     text-decoration: underline;
     font-family: 'Rubik Moonrocks', cursive;
     color: blue;
@@ -40,7 +50,7 @@ address{
 .footer {
     text-align: center;
     line-height: normal;
-    background-color: aqua;
+    background-color: rgb(136, 168, 206);
     font-weight: bold;
 }
 .lista {
@@ -52,4 +62,10 @@ address{
 
 .vertical {
     vertical-align: super;
+}
+a:hover {
+    color: brown;
+}
+.rotate{
+    transform: rotate();
 }
