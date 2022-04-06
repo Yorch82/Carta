@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+
+.address {
+    display: flex;
+    justify-content: flex-end;
+  
+}
+address{
+    padding: 10px;
+    font-size: 20px;
+    width:max-content;
+    margin-right: 20px;
+    background-color:indianred ;
+    border-radius: 16px 16px 16px 16px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.header {
+    text-decoration: underline;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: blue;
+}
+.dance {
+    font-family: 'Grape Nuts', cursive;
+    font-size:large;
+}
+
+.header2 {
+    font-family: 'Rubik Moonrocks', cursive;
+    text-align: center;
+       
+}
+.titulo{
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    line-height: normal;
+    background-color: aqua;
+    font-weight: bold;
+}
+.lista {
+    line-height: 35px;
+}
+#prueba {
+    quotes: "'" "'";
+}
+
+.vertical {
+    vertical-align: super;
+}
